@@ -1,0 +1,7 @@
+{
+  "culture": "en",
+  "texts": {
+    "Sample:001": "This is a BusinessException.",
+    "Sample:002": "Custom Exception Message£º{msg}."
+  }
+}

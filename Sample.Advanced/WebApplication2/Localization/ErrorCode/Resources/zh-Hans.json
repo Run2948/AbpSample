@@ -1,0 +1,7 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "Sample:001": "这是一个业务异常.",
+    "Sample:002": "自定义异常消息：{msg}."
+  }
+}

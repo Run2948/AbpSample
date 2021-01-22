@@ -1,0 +1,9 @@
+{
+  "culture": "en",
+  "texts": {
+    "Hello": "Hello!",
+    "Home": "Home",
+    "About": "About",
+    "HelloMessage": "Hello,{0}"
+  }
+}

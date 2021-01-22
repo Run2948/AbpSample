@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Localization\ErrorCode\Resources\en.json" />
+    <Content Remove="Localization\ErrorCode\Resources\zh-Hans.json" />
+    <Content Remove="Localization\Exception\Resources\en.json" />
+    <Content Remove="Localization\Exception\Resources\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\ErrorCode\Resources\en.json" />
+    <EmbeddedResource Include="Localization\ErrorCode\Resources\zh-Hans.json" />
+    <EmbeddedResource Include="Localization\Exception\Resources\en.json" />
+    <EmbeddedResource Include="Localization\Exception\Resources\zh-Hans.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="3.3.2" />
+  </ItemGroup>
+
+</Project>

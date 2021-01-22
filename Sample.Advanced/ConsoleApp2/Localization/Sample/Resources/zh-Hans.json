@@ -1,0 +1,9 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "Hello": "你好!",
+    "Home": "主页",
+    "About": "关于",
+    "HelloMessage": "你好，{0}"
+  }
+}

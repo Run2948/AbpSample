@@ -1,0 +1,320 @@
+2020-11-27 16:48:52.272 +08:00 [INF] User profile is available. Using 'C:\Users\buker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-27 16:48:52.357 +08:00 [INF] Loaded ABP modules:
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-27 16:48:52.357 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-27 16:48:52.357 +08:00 [INF] - WebApplication3.AppModule
+2020-11-27 16:48:52.625 +08:00 [INF] Initialized all ABP modules.
+2020-11-27 16:48:52.728 +08:00 [INF] Now listening on: https://localhost:5001
+2020-11-27 16:48:52.728 +08:00 [INF] Now listening on: http://localhost:5000
+2020-11-27 16:48:52.728 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 16:48:52.728 +08:00 [INF] Hosting environment: Development
+2020-11-27 16:48:52.728 +08:00 [INF] Content root path: E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3
+2020-11-27 16:48:59.108 +08:00 [INF] Application is shutting down...
+2020-11-27 16:56:32.088 +08:00 [INF] User profile is available. Using 'C:\Users\buker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-27 16:56:32.180 +08:00 [INF] Loaded ABP modules:
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-27 16:56:32.180 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-27 16:56:32.180 +08:00 [INF] - WebApplication3.AppModule
+2020-11-27 16:56:32.438 +08:00 [INF] Initialized all ABP modules.
+2020-11-27 16:56:32.538 +08:00 [INF] Now listening on: https://localhost:5001
+2020-11-27 16:56:32.538 +08:00 [INF] Now listening on: http://localhost:5000
+2020-11-27 16:56:32.538 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 16:56:32.538 +08:00 [INF] Hosting environment: Development
+2020-11-27 16:56:32.538 +08:00 [INF] Content root path: E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3
+2020-11-27 16:56:36.779 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/sample07  
+2020-11-27 16:56:36.807 +08:00 [INF] Executing endpoint 'WebApplication3.Controllers.Sample07Controller.Get (WebApplication3)'
+2020-11-27 16:56:36.852 +08:00 [INF] Route matched with {action = "Get", controller = "Sample07", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ObjectResult Get() on controller WebApplication3.Controllers.Sample07Controller (WebApplication3).
+2020-11-27 16:56:36.919 +08:00 [INF] Executing action method WebApplication3.Controllers.Sample07Controller.Get (WebApplication3) - Validation state: "Valid"
+2020-11-27 16:56:36.919 +08:00 [ERR] 错误日志
+2020-11-27 16:56:36.922 +08:00 [INF] Executed action method WebApplication3.Controllers.Sample07Controller.Get (WebApplication3), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3289ms.
+2020-11-27 16:56:36.930 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-11-27 16:56:36.935 +08:00 [INF] Executed action WebApplication3.Controllers.Sample07Controller.Get (WebApplication3) in 79.9788ms
+2020-11-27 16:56:36.935 +08:00 [INF] Executed endpoint 'WebApplication3.Controllers.Sample07Controller.Get (WebApplication3)'
+2020-11-27 16:56:36.935 +08:00 [INF] Request finished in 158.9874ms 200 text/plain; charset=utf-8
+2020-11-27 16:56:50.860 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/sample07  
+2020-11-27 16:56:50.862 +08:00 [INF] Executing endpoint 'WebApplication3.Controllers.Sample07Controller.Get (WebApplication3)'
+2020-11-27 16:56:50.863 +08:00 [INF] Route matched with {action = "Get", controller = "Sample07", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ObjectResult Get() on controller WebApplication3.Controllers.Sample07Controller (WebApplication3).
+2020-11-27 16:56:50.880 +08:00 [INF] Executing action method WebApplication3.Controllers.Sample07Controller.Get (WebApplication3) - Validation state: "Valid"
+2020-11-27 16:56:50.880 +08:00 [ERR] 错误日志
+2020-11-27 16:56:50.880 +08:00 [INF] Executed action method WebApplication3.Controllers.Sample07Controller.Get (WebApplication3), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.0598ms.
+2020-11-27 16:56:50.881 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-11-27 16:56:50.881 +08:00 [INF] Executed action WebApplication3.Controllers.Sample07Controller.Get (WebApplication3) in 17.5357ms
+2020-11-27 16:56:50.881 +08:00 [INF] Executed endpoint 'WebApplication3.Controllers.Sample07Controller.Get (WebApplication3)'
+2020-11-27 16:56:50.881 +08:00 [INF] Request finished in 20.8664ms 200 text/plain; charset=utf-8
+2020-11-27 16:56:57.635 +08:00 [INF] Application is shutting down...
+2020-11-27 17:04:32.205 +08:00 [INF] User profile is available. Using 'C:\Users\buker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-27 17:04:32.286 +08:00 [INF] Loaded ABP modules:
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-27 17:04:32.286 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-27 17:04:32.286 +08:00 [INF] - WebApplication3.AppModule
+2020-11-27 17:04:32.549 +08:00 [INF] Initialized all ABP modules.
+2020-11-27 17:04:32.647 +08:00 [INF] Now listening on: https://localhost:5001
+2020-11-27 17:04:32.647 +08:00 [INF] Now listening on: http://localhost:5000
+2020-11-27 17:04:32.648 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 17:04:32.648 +08:00 [INF] Hosting environment: Development
+2020-11-27 17:04:32.648 +08:00 [INF] Content root path: E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3
+2020-11-27 17:04:44.861 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/sample01  
+2020-11-27 17:04:44.890 +08:00 [INF] Executing endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:04:44.936 +08:00 [INF] Route matched with {action = "Get", controller = "Sample01", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ObjectResult Get() on controller WebApplication3.Controllers.Sample01Controller (WebApplication3).
+2020-11-27 17:04:45.004 +08:00 [INF] Executing action method WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) - Validation state: "Valid"
+2020-11-27 17:04:45.250 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": "Sample:001",
+  "message": "这是一个业务异常.",
+  "details": null,
+  "data": {
+    "msg": "这是一个参数化的错误消息"
+  },
+  "validationErrors": null
+}
+
+2020-11-27 17:04:45.250 +08:00 [WRN] Exception of type 'Volo.Abp.BusinessException' was thrown.
+Volo.Abp.BusinessException: Exception of type 'Volo.Abp.BusinessException' was thrown.
+   at WebApplication3.Controllers.Sample01Controller.Get() in E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3\Controllers\Sample01Controller.cs:line 16
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-11-27 17:04:45.251 +08:00 [WRN] Code:Sample:001
+2020-11-27 17:04:45.251 +08:00 [WRN] Details:
+2020-11-27 17:04:45.252 +08:00 [WRN] ---------- Exception Data ----------
+msg = 这是一个参数化的错误消息
+
+2020-11-27 17:04:45.267 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-11-27 17:04:45.292 +08:00 [INF] Executed action WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) in 352.631ms
+2020-11-27 17:04:45.292 +08:00 [INF] Executed endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:04:45.293 +08:00 [INF] Request finished in 433.7415ms 400 application/json; charset=utf-8
+2020-11-27 17:05:18.477 +08:00 [INF] User profile is available. Using 'C:\Users\buker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-27 17:05:18.565 +08:00 [INF] Loaded ABP modules:
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-27 17:05:18.565 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-27 17:05:18.565 +08:00 [INF] - WebApplication3.AppModule
+2020-11-27 17:05:18.843 +08:00 [INF] Initialized all ABP modules.
+2020-11-27 17:05:18.943 +08:00 [INF] Now listening on: https://localhost:5001
+2020-11-27 17:05:18.946 +08:00 [INF] Now listening on: http://localhost:5000
+2020-11-27 17:05:18.946 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 17:05:18.946 +08:00 [INF] Hosting environment: Development
+2020-11-27 17:05:18.946 +08:00 [INF] Content root path: E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3
+2020-11-27 17:05:25.438 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/sample01  
+2020-11-27 17:05:25.466 +08:00 [INF] Executing endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:05:25.510 +08:00 [INF] Route matched with {action = "Get", controller = "Sample01", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ObjectResult Get() on controller WebApplication3.Controllers.Sample01Controller (WebApplication3).
+2020-11-27 17:05:25.575 +08:00 [INF] Executing action method WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) - Validation state: "Valid"
+2020-11-27 17:05:25.818 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-11-27 17:05:25.835 +08:00 [INF] Executed action WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) in 322.6535ms
+2020-11-27 17:05:25.835 +08:00 [INF] Executed endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:05:25.836 +08:00 [INF] Request finished in 400.3687ms 400 application/json; charset=utf-8
+2020-11-27 17:28:45.445 +08:00 [INF] User profile is available. Using 'C:\Users\buker\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-11-27 17:28:45.532 +08:00 [INF] Loaded ABP modules:
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Validation.AbpValidationAbstractionsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.ObjectExtending.AbpObjectExtendingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Minify.AbpMinifyModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.ExceptionHandling.AbpExceptionHandlingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationContractsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.GlobalFeatures.AbpGlobalFeaturesModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2020-11-27 17:28:45.532 +08:00 [INF] - Volo.Abp.AspNetCore.Serilog.AbpAspNetCoreSerilogModule
+2020-11-27 17:28:45.532 +08:00 [INF] - WebApplication3.AppModule
+2020-11-27 17:28:45.808 +08:00 [INF] Initialized all ABP modules.
+2020-11-27 17:28:45.905 +08:00 [INF] Now listening on: https://localhost:5001
+2020-11-27 17:28:45.905 +08:00 [INF] Now listening on: http://localhost:5000
+2020-11-27 17:28:45.905 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-11-27 17:28:45.905 +08:00 [INF] Hosting environment: Development
+2020-11-27 17:28:45.905 +08:00 [INF] Content root path: E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3
+2020-11-27 17:29:30.388 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/sample01  
+2020-11-27 17:29:30.420 +08:00 [INF] Executing endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:29:30.463 +08:00 [INF] Route matched with {action = "Get", controller = "Sample01", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ObjectResult Get() on controller WebApplication3.Controllers.Sample01Controller (WebApplication3).
+2020-11-27 17:29:30.530 +08:00 [INF] Executing action method WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) - Validation state: "Valid"
+2020-11-27 17:29:30.774 +08:00 [WRN] ---------- RemoteServiceErrorInfo ----------
+{
+  "code": "Sample:001",
+  "message": "这是一个业务异常.",
+  "details": null,
+  "data": {
+    "msg": "这是一个参数化的错误消息"
+  },
+  "validationErrors": null
+}
+
+2020-11-27 17:29:30.774 +08:00 [WRN] Exception of type 'Volo.Abp.BusinessException' was thrown.
+Volo.Abp.BusinessException: Exception of type 'Volo.Abp.BusinessException' was thrown.
+   at WebApplication3.Controllers.Sample01Controller.Get() in E:\教案\★《.NET Core 架构班》\第02期\《ABP Framework》\案例\04\Sample\WebApplication3\Controllers\Sample01Controller.cs:line 16
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2020-11-27 17:29:30.774 +08:00 [WRN] Code:Sample:001
+2020-11-27 17:29:30.774 +08:00 [WRN] Details:
+2020-11-27 17:29:30.776 +08:00 [WRN] ---------- Exception Data ----------
+msg = 这是一个参数化的错误消息
+
+2020-11-27 17:29:30.789 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.RemoteServiceErrorResponse'.
+2020-11-27 17:29:30.813 +08:00 [INF] Executed action WebApplication3.Controllers.Sample01Controller.Get (WebApplication3) in 346.9796ms
+2020-11-27 17:29:30.813 +08:00 [INF] Executed endpoint 'WebApplication3.Controllers.Sample01Controller.Get (WebApplication3)'
+2020-11-27 17:29:30.814 +08:00 [INF] Request finished in 427.7353ms 400 application/json; charset=utf-8
+2020-11-27 17:29:42.543 +08:00 [INF] Application is shutting down...
