@@ -1,14 +1,16 @@
 # APB vNext 框架入门
 
-##  .NET Core 控制台应用
+## 快速入门案例
 
-### 1. 安装 ABP 框架核心依赖
+###  .NET Core 控制台应用
+
+#### 1. 安装 ABP 框架核心依赖
 
 ```
 Install-Package Volo.Abp.Core -Version 3.3.2
 ```
 
-### 2. 新建 ABP 应用的启动模块
+#### 2. 新建 ABP 应用的启动模块
 
 `HelloAbpModule.cs`
 
@@ -27,7 +29,7 @@ namespace HelloAbp
 }
 ```
 
-### 3. 新建服务，并注册到启动模块中
+#### 3. 新建服务，并注册到启动模块中
 
 `HelloWorldService.cs`
 
@@ -51,7 +53,7 @@ namespace HelloAbp
 }
 ```
 
-### 4. 根据启动模块创建 ABP应用，调用应用中注册的服务方法
+#### 4. 根据启动模块创建 ABP应用，调用应用中注册的服务方法
 
 `Program.cs`
 
@@ -83,16 +85,16 @@ namespace HelloAbp
 
 
 
-## ASP.NET Core Web 应用程序
+### ASP.NET Core Web 应用程序
 
-### 1. 安装 ABP 框架核心依赖
+#### 1. 安装 ABP 框架核心依赖
 
 ```
 Install-Package Volo.Abp.Core -Version 3.3.2
 Install-Package Volo.Abp.AspNetCore.Mvc -Version 3.3.2
 ```
 
-### 2.新建 ABP 应用的启动模块
+#### 2.新建 ABP 应用的启动模块
 
 `AppModule.cs`
 
@@ -143,7 +145,7 @@ namespace HelloWebAbp
 }
 ```
 
-### 3. 注册 ABP 启动模块，并初始化 ABP 应用
+#### 3. 注册 ABP 启动模块，并初始化 ABP 应用
 
 `Startup.cs`
 
@@ -182,7 +184,7 @@ namespace HelloWebAbp
 }
 ```
 
-### 4. 新建控制器，测试 ABP 应用运行状态
+#### 4. 新建控制器，测试 ABP 应用运行状态
 
 `HomeController.cs`
 
@@ -210,3 +212,88 @@ namespace HelloWebAbp.Controllers
 }
 ```
 
+
+
+##  各个击破案例
+
+> ABP应用中的模块可以有很多个，但是启动模块只能有一个；
+>
+> ABP应用中的每个模块之间没有必然的联系；
+>
+> ABP应用中每个模块注册的服务，都注册到了ABP应用的全局容器中;
+>
+> ABP应用中的模块也分为两种类型：应用程序模块(业务实现)和框架模块(技术实现)；
+>
+> ABP应用中最顶层的模块是启动模块，最后被加载的也是启动模块。
+
+###  在模块中注册自定义服务
+
+`HelloAbpModule.cs`
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
+using Volo.Abp.Modularity;
+
+namespace HelloAbp
+{
+    /// <summary>
+    /// 启动模块
+    /// </summary>
+    public class HelloAbpModule : AbpModule
+    {
+        // TODO: 重写 ABP 模块的服务配置方法，向模块中注册自定义的服务
+        public override void ConfigureServices(ServiceConfigurationContext context)
+        {
+            base.ConfigureServices(context);
+
+            // TODO: ABP 注册服务方式二： 模块注册
+            context.Services.AddTransient<HelloWorldService>();
+        }
+    }
+}
+```
+
+**小结**
+
+>**初始化ABP模块**
+>
+>* 1.注册ABP基础设施与核心服务（模块系统相关）
+>* 2.加载整个应用的所有模块，按照依赖性排序
+>* 3.按顺序遍历所有模块，执行每一个模块的配置方法
+>* 4.按顺序遍历所有模块，执行每一个模块的初始化方法
+
+### 使用标签属性注册自定义服务
+
+`HelloWorldService.cs`
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp.DependencyInjection;
+
+namespace HelloAbp
+{
+    /// <summary>
+    /// TODO: ABP 注册服务方式三： 特性标签
+    ///     ServiceLifetime.Singleton、ServiceLifetime.Scoped、ServiceLifetime.Transient
+    /// </summary>
+    [Dependency(ServiceLifetime.Transient)]
+    public class HelloWorldService
+    {
+        public void Run()
+        {
+            Console.WriteLine($"{nameof(HelloAbpModule)}-{nameof(HelloWorldService)}: Hello World!");
+        }
+    }
+}
+```
+
+
+
+###  
