@@ -17,6 +17,9 @@ using Volo.Abp.Modularity;
 
 namespace HelloAbp
 {
+    /// <summary>
+    /// 启动模块
+    /// </summary>
     public class HelloAbpModule : AbpModule
     {
 
@@ -80,3 +83,11 @@ namespace HelloAbp
 
 
 
+## ASP.NET Core Web 应用程序
+
+### 1. 安装 ABP 框架核心依赖
+
+```
+Install-Package Volo.Abp.Core -Version 3.3.2
+Install-Package Volo.Abp.AspNetCore.Mvc -Version 3.3.2
+```

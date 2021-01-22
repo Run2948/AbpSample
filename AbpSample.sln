@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAbp", "HelloAbp\HelloAbp.csproj", "{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebAbp", "HelloWebAbp\HelloWebAbp.csproj", "{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
