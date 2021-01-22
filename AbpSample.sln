@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloAbp", "HelloAbp\HelloAbp.csproj", "{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloAbp", "HelloAbp\HelloAbp.csproj", "{DBAAD227-C5D6-4A60-BDA8-FF440D46C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWebAbp", "HelloWebAbp\HelloWebAbp.csproj", "{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWebAbp", "HelloWebAbp\HelloWebAbp.csproj", "{DB8FAD21-1858-4C0D-B5F8-3C69A0F14303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -296,4 +296,80 @@ namespace HelloAbp
 
 
 
-###  
+###  ABP 项目中使用 Autofac
+
+#### 1. 安装  Autofac 模块
+
+```
+Install-Package Volo.Abp.Autofac -Version 3.3.2
+```
+
+#### 2. 在模块中创建对 Autofac 模块的依赖
+
+`HelloAbpModule.cs`
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
+using Volo.Abp.Autofac;
+using Volo.Abp.Modularity;
+
+namespace HelloAbp
+{
+    /// <summary>
+    /// 启动模块
+    /// </summary>
+    // TODO: 使用 Autofac 第三方依赖注入框架（提供了更多的高级特性）
+    [DependsOn(typeof(AbpAutofacModule))]
+    public class HelloAbpModule : AbpModule
+    {
+        public override void ConfigureServices(ServiceConfigurationContext context)
+        {
+            base.ConfigureServices(context);
+
+            context.Services.AddTransient<HelloWorldService>();
+        }
+    }
+}
+```
+
+#### 3. 在ABP应用创建时集成 Autofac
+
+`Program.cs`
+
+```csharp
+using System;
+using Microsoft.Extensions.DependencyInjection;
+using Volo.Abp;
+
+namespace HelloAbp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            {
+                // 根据启动模块创建 abp 应用
+                var application = AbpApplicationFactory.Create<HelloAbpModule>(options =>
+                {
+                    // 集成 Autofac 
+                    options.UseAutofac();
+                });
+                // 初始化 abp 应用
+                application.Initialize();
+                // 获取应用中注册的服务
+                var service = application.ServiceProvider.GetService<HelloWorldService>();
+                // 调用应用中的服务方法 
+                service.Run();
+            }
+
+            Console.WriteLine("Hello World!");
+            Console.ReadKey();
+        }
+    }
+}
+```
+

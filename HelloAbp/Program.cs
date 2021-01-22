@@ -11,7 +11,11 @@ namespace HelloAbp
 
             {
                 // 根据启动模块创建 abp 应用
-                var application = AbpApplicationFactory.Create<HelloAbpModule>();
+                var application = AbpApplicationFactory.Create<HelloAbpModule>(options =>
+                {
+                    // 集成 Autofac 
+                    options.UseAutofac();
+                });
                 // 初始化 abp 应用
                 application.Initialize();
                 // 获取应用中注册的服务
